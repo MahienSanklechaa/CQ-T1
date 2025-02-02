@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Hub</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<div class="container">
+<div class="header-left">
+<img src="im1.png" alt="Library Logo" class="logo">
+<h1>Book Hub</h1>
+</div>
+<div class="header-middle">
+<a href="#home" class="home-link">Home</a>
+<nav>
+<ul>
+<li class="dropdown">
+<a href="#">Sections ▾</a>
+<ul class="dropdown-menu">
+<li><a href="#home">Home</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#categories">Categories</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<div class="search-bar">
+<input type="text" placeholder="Search books...">
+<button type="submit">🔍</button>
+</div>
+</div>
+<div class="header-right">
+<div class="auth-buttons">
+<a href="index.html" class="btn">Login</a>
+<a href="index.html" class="btn">Sign Up</a>
+</div>
+</div>
+</div>
+</header>
+
+<section id="home" class="hero">
+<div class="container">
+<h2>Discover Your Next Adventure</h2>
+<p>Explore our vast collection of books and immerse yourself in knowledge.</p>
+<a href="#books" class="btn">Browse Collection</a>
+</div>
+</section>
+
+<section id="books" class="books">
+<div class="container">
+<h2>Featured Books</h2>
+<div class="book-grid">
+<div class="book-card">
+<h3>The Great Gatsby</h3>
+<p>F. Scott Fitzgerald</p>
+</div>
+<div class="book-card">
+<h3>48 Laws Of Power</h3>
+<p>Robert Greene</p>
+</div>
+<div class="book-card">
+<h3>Atomic Habits</h3>
+<p>James Clear</p>
+</div>
+<div class="book-card">
+<h3>Harry Potter</h3>
+<p>J.K. Rowling</p>
+</div>
+<div class="book-card">
+<h3>A First Course In Quantitative Finance</h3>
+<p>Thomas Mazzoni</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="categories" class="categories">
+<div class="container">
+    <h2>Categories</h2>
+    <div class="cat-grid">
+    <div class="cat-card">
+    <h3>Romance</h3>
+    </div>
+    <div class="cat-card">
+    <h3>Sci-Fi</h3>
+    </div>
+    <div class="cat-card">
+    <h3>Fantasy</h3>
+    </div>
+    <div class="cat-card">
+    <h3>Thriller</h3>
+    </div>
+    <div class="cat-card">
+        <h3>Action</h3>
+    </div>
+    <div class="cat-card">
+        <h3>Adventure</h3>
+    </div>
+    <div class="cat-card">
+        <h3>History</h3>
+    </div>
+    <div class="cat-card">
+        <h3>Horror</h3>
+    </div>
+    <div class="cat-card">
+        <h3>Academic</h3>
+    </div>
+    <div class="cat-card">
+    <h3>Non-Fiction</h3>
+    </div>
+    </div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container contact-container">
+        <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone No.:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+        </form>
+        </div>
+        <div class="reviews">
+        <h2>What our Users have to say..</h2>
+        <div class="review">
+            <p><strong>Mr. X:</strong> "Amazing book collection! Found exactly what I was looking for."</p>
+        </div>
+        <div class="review">
+            <p><strong>Mrs. Y:</strong> "A wonderful website for book lovers. Highly recommended!"</p>
+        </div>
+        <div class="review">
+            <p><strong>Emily Johnson:</strong> "Great customer support and a fantastic selection of books.All the books at one place is a dream come true."</p>
+        </div>
+        <div class="review">
+            <p><strong>Greta Thunberg:</strong> "Save the Environment"</p>
+        </div>
+        </div>
+    </div>
+</section>
+<footer>
+<div class="container">
+<p>&copy; 2025 Book Hub. @ All rights reserved.</p>
+<a href="#home" class="top-link">Top</a>
+</div>
+</footer>
+</body>
+</html>
